@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name = 'Rahul';
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello World
+          Hello {name} 
+          {/* Hello {new Date().toDateString()} */}
         </p>
         <a
           className="App-link"
